@@ -15,8 +15,10 @@ function App() {
         </div>
       </header>
       <div className="hero">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea delectus distinctio accusantium earum laboriosam optio, mollitia voluptatem esse dolore veniam odit amet quae vitae ut alias quisquam eum molestias. Necessitatibus.</p>
-    
+        <p className="intro">Hi, my name is</p>
+        <h1 className="title">Shannon Brookshire.</h1>
+        <h1 className="title2">I am a front-end web developer.</h1>
+        <p className="intro-paragraph">I am a enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces. I fully embrace a growth mind-set dedicating myself daily to improving my web development skills. It took a lot of grit and determination to reach this point in my journey and I look forward to overcoming the challenges ahead.</p>
       </div>
     </div>
   );
