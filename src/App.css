@@ -16,6 +16,8 @@
   color: var(--white);
   min-height: 100vh;
   padding: 0.5em 1em;
+  line-height: 1.5em;
+  letter-spacing: .4em;
 }
 
 /* header style------------------------------------------------------- */
@@ -27,7 +29,7 @@ header {
 }
 
 #logo {
-  height: 4em;
+  height: 3em;
 }
 
 @keyframes App-logo-spin {
