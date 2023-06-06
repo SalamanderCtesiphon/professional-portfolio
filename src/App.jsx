@@ -14,7 +14,7 @@ function App() {
           <div className="link">About</div>
           <div className="link">Work</div>
           <div className="link">Contact</div>
-          <div className="resume-link"><a href={resumeDownLoad} target='_blank'>Resume</a></div>
+          <div className="resume-link"><a href={resumeDownLoad}>Resume</a></div>
         </div>
       </header>
       <div className="hero">
@@ -62,7 +62,13 @@ function App() {
         <p className="about-paragraph">I soon realized that I couldn't do anything practical with what I had learned and I decided to try something more modern. So, I did a brief search on the most popular programming languages and decided that it was time to learn python. I watched a few tutorials and coded a couple of simple video games like pong and jump man following along copying the tutorials. Yet, I still felt like I wasn't making any progress towards becoming employable.</p>
         <p className="about-paragraph">So, I decided to do some more research. I began searching for the best ways to learn to code and get a job. I finally discovered from multiple sources that The Odin Project was probably the best free open-source resource for learning to code for a newbie. So, ten or so months ago I decided to dedicate my self to completing the curriculum provided by The Odin Project. I resolved myself to not give up and to keep pressing forward no matter what. The experience was a challenge unlike anything I had trued before. And there were times when I was sure that I would never be able to accomplish my goal. But with persistence and determination I was able to complete their entire front-end course curriculum. Now, looking back I feel very confident that I can overcome any technical challenge presented to me, and provide a professional, robust, and high-performance solution. If you made it this far, thanks a million for taking the time to read a little about me. I really hope to hear from you in the future.</p>
       </div>
-
+      <div className="container">
+        <h1 className="title">Contact</h1>
+        <p>contact info goes here</p>
+      </div>
+      <div className="footer">
+        <small>this web site is a poor clone of a much better website by a wonderful developer <a className='nav-link' href="https://v4.brittanychiang.com/">Brittany Chaing</a></small>
+      </div>
     </div>
   );
 }
