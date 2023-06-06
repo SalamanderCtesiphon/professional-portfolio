@@ -19,6 +19,14 @@
   letter-spacing: .4em;
 }
 
+.container {
+  padding: 10em 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 /* header style------------------------------------------------------- */
 header {
   display: flex;
@@ -81,10 +89,11 @@ header {
 
 /* hero banner!!!!!------------------------------section------ */
 .hero {
+  padding: 12em 15em;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 10em 20em;
+  justify-content: center;
 }
 
 @media (max-width: 1400px) {
@@ -125,17 +134,47 @@ header {
   }
   
 }
+/* 
+work section------------------------------------------------------- */
+.work-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+  margin: 5em 0;
+}
+
+img {
+  height: 16em;
+  width: auto;
+}
+
+.card-info {
+  background-color: rgba(0, 0, 0, 0.098);
+  padding: 1em;
+  width: 30vw;
+}
+
+p.intro-paragraph {
+  width: 100%;
+  
+}
+
+.badges {
+  display: flex;
+}
+
+.tech-stack {
+  padding: .5em 1em;
+  color: var(--green);
+  background-color: #7bffe022;
+  border-radius: 30px;
+  margin: 0 .5em;
+}
 
 
 /* about section------------------------------------------------- */
 
-.about {
-  padding: 10em 20em;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
 
 .about-paragraph {
   text-align: left;
