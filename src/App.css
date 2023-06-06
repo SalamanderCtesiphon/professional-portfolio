@@ -202,3 +202,19 @@ p.intro-paragraph {
   line-height: 2em;
   color: var(--slate);
 }
+
+/* footer style -------------------------- */
+
+.footer {
+  padding: 2em 0;
+}
+
+.nav-link {
+  color: #64ffda;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: var(--white);
+}
