@@ -8,10 +8,9 @@ function App() {
         <img id='logo' src={logo} alt="my logo" />
         <div className="link-container">
           <div className="link">About</div>
-          <div className="link">Experience</div>
           <div className="link">Work</div>
           <div className="link">Contact</div>
-          <div className="link">Resume</div>
+          <div className="resume-link">Resume</div>
         </div>
       </header>
       <div className="hero">
