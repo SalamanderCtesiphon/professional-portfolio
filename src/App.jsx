@@ -4,10 +4,21 @@ import coffee from './images/coffee-site.png'
 import fashion from './images/fashion-boutique.png'
 import resturant from './images/resturant-page.png'
 import resumeDownLoad from './assets/ShannonBrookshire.pdf'
+import gitHub from './icons/icons8-github-50.png'
+import twitter from './icons/icons8-twitter-50.png'
+import linkedIn from './icons/icons8-linkedin-50.png'
 
 function App() {
   return (
     <div className="App">
+      <section className='side-bar'>
+        <ul className='side-links'>
+          <li><img src={gitHub} alt="git hub" className='icons'/></li>
+          <li><img src={twitter} alt="twitter" className='icons'/></li>
+          <li><img src={linkedIn} alt="linked in" className='icons'/></li>
+          <li id="line-container"></li>
+        </ul>
+      </section>
       <header>
         <img id='logo' src={logo} alt="my logo" />
         <div className="link-container">
@@ -21,7 +32,7 @@ function App() {
         <p className="intro">Hi, my name is</p>
         <h1 className="title">Shannon Brookshire.</h1>
         <h1 className="title2">I am a front-end web developer.</h1>
-        <p className="first-paragraph">I am a enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces. I have fully embraced a growth mind-set dedicating myself daily to improving my web development skills. It took a lot of grit and determination to reach this point in my journey and I look forward to overcoming the challenges ahead.</p>
+        <p className="first-paragraph">I am a enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces. I have fully embraced a growth mind-set dedicating myself daily to improving my web development skills.</p>
       </div>
       <div className="container">
         <h1 className="title">Work Section </h1>
