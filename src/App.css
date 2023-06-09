@@ -152,6 +152,29 @@ header {
   }
   
 }
+
+.side-bar {
+  position: absolute;
+  top: 55%;
+  right: 94.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+.icons {
+  height: 1.75em;
+  width: auto;
+  cursor: pointer;
+  margin: 1em 0;
+}
+
+#line-container {
+  border-right: 1px solid white;
+  height: 15em;
+  margin-right: 1em;
+}
 /* 
 work section------------------------------------------------------- */
 .work-card {
