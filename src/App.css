@@ -9,7 +9,6 @@
   --green: #64ffda;
 }
 
-
 .App {
   text-align: center;
   background-color: var(--navy);
@@ -17,6 +16,14 @@
   padding: 0.5em 1em;
   line-height: .5em;
   letter-spacing: .4em;
+}
+
+.load-page {
+  min-height: 98.35vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
