@@ -18,7 +18,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 2000)
+    }, 5000)
   }, [])
 
   return (
@@ -32,7 +32,7 @@ function App() {
             size={75}
             aria-label="Loading Spinner"
             data-testid="loader"
-            speedMultiplier={.5}
+            speedMultiplier={.35}
             />
          </div>
         :
@@ -46,15 +46,17 @@ function App() {
               </ul>
             </section>
             <section className='right-side-bar'>
-              <p>swbrookshire@gmail.com</p>
+              <p><a href="#">swbrookshire@gmail.com</a></p>
               <div id="other-line"></div>
             </section>
             <header>
               <img id='logo' src={logo} alt="my logo" />
               <div className="link-container">
-                <div className="link">About</div>
-                <div className="link">Work</div>
-                <div className="link">Contact</div>
+                <div className="link-container-child-one">
+                  <div className="link">About</div>
+                  <div className="link">Work</div>
+                  <div className="link">Contact</div>
+                </div>
                 <div className="resume-link"><a href={resumeDownLoad}>Resume</a></div>
               </div>
             </header>
@@ -62,7 +64,7 @@ function App() {
               <p className="intro">Hi, my name is</p>
               <h1 className="title">Shannon Brookshire.</h1>
               <h1 className="title2">I am a front-end web developer.</h1>
-              <p className="first-paragraph">I am a enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces. I have fully embraced a growth mind-set dedicating myself daily to improving my web development skills.</p>
+              <p className="first-paragraph">I am an enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces. I have fully embraced a growth mind-set dedicating myself daily to improving my web development skills.</p>
             </div>
             <div className="container">
               <h1 className="title">Work Section </h1>
