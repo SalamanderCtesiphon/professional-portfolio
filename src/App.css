@@ -91,6 +91,14 @@ header {
   justify-content: center;
 }
 
+.resume-link {
+  transition-property: transform box-shadow;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: .25s;
+  
+}
+
 .link-container-child-one {
   display: flex;
   align-items: center;
@@ -99,11 +107,10 @@ header {
 }
 
 .resume-link:hover {
-  transition-timing-function: ease-in-out;
   position: sticky;
   background-color: var(--light-navy);
-  border-right: 6px solid var(--green);
-  border-bottom: 6px solid var(--green);
+  box-shadow: 3px 3px 0px 2px var(--green);
+  transform: translateY(-3px) translateX(-3px);
 }
 
 /* hero banner!!!!!------------------------------section------ */
@@ -263,11 +270,17 @@ ul {
   width: auto;
   cursor: pointer;
   margin: 1em 0;
+  padding: .3em;
+  transition-property: transform background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: .25s;
 }
 
 .icons:hover {
-  background-color: var(--green);
+  background-color: var(--dark-gray);
   border-radius: 5px;
+  transform: scale(1.1) translateY(-3px);
 }
 
 #line-container {
@@ -286,15 +299,21 @@ ul {
   font-size: .75em;
   animation: right-side-bar-load 2000ms ease-in 2000ms;
   animation-fill-mode: forwards;
+  
 }
 
 .right-side-bar a {
   text-decoration: none;
   color: var(--light-slate);
+  transition-property: transform translateY();
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: .25s;
 }
 
 .right-side-bar a:hover {
   color: var(--green);
+  padding-right: 5px;
 }
 
 @keyframes right-side-bar-load {
