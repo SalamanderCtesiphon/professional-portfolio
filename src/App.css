@@ -182,6 +182,23 @@ ul {
   height: 15em;
   margin-right: 1em;
 }
+
+.right-side-bar {
+  position: absolute;
+  top: 99%;
+  right: 3%;
+  display: flex;
+  transform-origin: right;
+  transform: rotate(90deg);
+  font-size: .75em;
+}
+
+#other-line {
+  width: 10em;
+  border-bottom: 1px solid white;
+  margin-bottom: 1.2em;
+}
+
 /* 
 work section------------------------------------------------------- */
 .work-card {
