@@ -18,7 +18,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 3500)
+    }, 2500)
   }, [])
 
   return (
@@ -64,7 +64,7 @@ function App() {
               <p className="intro">Hi, my name is</p>
               <h1 className="title">Shannon Brookshire.</h1>
               <h1 className="title2">I am a front-end web developer.</h1>
-              <p className="first-paragraph">I am an enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces. I have fully embraced a growth mind-set dedicating myself daily to improving my web development skills.</p>
+              <p className="first-paragraph">I am an enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces.</p>
             </div>
             <div className="container">
               <h1 className="title">Work Section </h1>
