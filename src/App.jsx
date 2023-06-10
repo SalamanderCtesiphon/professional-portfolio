@@ -45,6 +45,10 @@ function App() {
                 <li id="line-container"></li>
               </ul>
             </section>
+            <section className='right-side-bar'>
+              <p>swbrookshire@gmail.com</p>
+              <div id="other-line"></div>
+            </section>
             <header>
               <img id='logo' src={logo} alt="my logo" />
               <div className="link-container">
