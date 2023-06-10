@@ -18,7 +18,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 5000)
+    }, 3500)
   }, [])
 
   return (
@@ -39,14 +39,14 @@ function App() {
           <div>
             <section className='side-bar'>
               <ul className='side-links'>
-                <li><img src={gitHub} alt="git hub" className='icons'/></li>
-                <li><img src={twitter} alt="twitter" className='icons'/></li>
-                <li><img src={linkedIn} alt="linked in" className='icons'/></li>
+                <li><a href="https://github.com/SalamanderCtesiphon"><img src={gitHub} alt="git hub" className='icons'/></a></li>
+                <li><a href="https://twitter.com/Shannon99535365"><img src={twitter} alt="twitter" className='icons'/></a></li>
+                <li><a href="https://www.linkedin.com/in/shannon-brookshire-817577265/"><img src={linkedIn} alt="linked in" className='icons'/></a></li>
                 <li id="line-container"></li>
               </ul>
             </section>
             <section className='right-side-bar'>
-              <p><a href="#">swbrookshire@gmail.com</a></p>
+              <p><a href="swbrookshire@gmail.com">swbrookshire@gmail.com</a></p>
               <div id="other-line"></div>
             </section>
             <header>
