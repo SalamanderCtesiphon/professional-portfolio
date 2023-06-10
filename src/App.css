@@ -40,7 +40,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1% 3%;
-  animation: nav-load 1000ms ease-in;
+  animation: nav-load 2000ms ease-in;
 }
 
 @keyframes nav-load {
@@ -84,7 +84,6 @@ header {
   text-decoration: none;
   color: var(--green);
   border: 1px solid var(--green);
-  border-radius: 5px;
   padding: 1em 1.5em;
   cursor: pointer;
   display: flex;
@@ -92,10 +91,19 @@ header {
   justify-content: center;
 }
 
+.link-container-child-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
 .resume-link:hover {
+  transition-timing-function: ease-in-out;
+  position: sticky;
   background-color: var(--light-navy);
-  border-right: 5px solid var(--green);
-  border-bottom: 5px solid var(--green);
+  border-right: 6px solid var(--green);
+  border-bottom: 6px solid var(--green);
 }
 
 /* hero banner!!!!!------------------------------section------ */
@@ -117,7 +125,7 @@ header {
 .intro {
   color: var(--green);
   font-family: 'Courier New', Courier, monospace;
-  animation: intro-animation 1000ms ease-in 2000ms;
+  animation: intro-animation 2000ms ease-in 3000ms;
   transform: translateY(100%);
   opacity: 0;
   animation-fill-mode: forwards;
@@ -137,7 +145,7 @@ header {
 .title {
   font-size: 4em;
   font-weight: 900;
-  animation: title-animation 500ms ease-in 2000ms;
+  animation: title-animation 500ms ease-in 3000ms;
   transform: translateY(100%);
   opacity: 0;
   animation-fill-mode: forwards;
@@ -160,7 +168,7 @@ header {
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: .01em;
   word-spacing: .0001em;
-  animation: title2-animation 1000ms ease-in 2000ms;
+  animation: title2-animation 1000ms ease-in 3000ms;
   transform: translateY(100%);
   opacity: 0;
   animation-fill-mode: forwards;
@@ -184,7 +192,7 @@ header {
   text-align: left;
   color: var(--slate);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  animation: p-animation 2000ms ease-in 2000ms;
+  animation: p-animation 2000ms ease-in 4000ms;
   transform: translateY(50%);
   opacity: 0;
   animation-fill-mode: forwards;
@@ -228,7 +236,7 @@ header {
   position: absolute;
   top: 55%;
   right: 94.5%;
-  animation: side-bar-load 1000ms ease-in 1000ms;
+  animation: side-bar-load 2000ms ease-in 2000ms;
   animation-fill-mode: forwards;
   transform: translateY(100%);
 }
@@ -247,10 +255,16 @@ ul {
 }
 
 .icons {
+  position: sticky;
   height: 1.75em;
   width: auto;
   cursor: pointer;
   margin: 1em 0;
+}
+
+.icons:hover {
+  background-color: var(--green);
+  border-radius: 5px;
 }
 
 #line-container {
@@ -267,8 +281,17 @@ ul {
   transform-origin: 95%;
   transform: rotate(0);
   font-size: .75em;
-  animation: right-side-bar-load 1000ms ease-in 1000ms;
+  animation: right-side-bar-load 2000ms ease-in 2000ms;
   animation-fill-mode: forwards;
+}
+
+.right-side-bar a {
+  text-decoration: none;
+  color: var(--light-slate);
+}
+
+.right-side-bar a:hover {
+  color: var(--green);
 }
 
 @keyframes right-side-bar-load {
