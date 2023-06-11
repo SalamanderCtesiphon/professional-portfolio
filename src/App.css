@@ -73,11 +73,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: transform border-bottom;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+  transition-delay: .125s;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .link:hover {
   color: var(--dark-gray);
   border-bottom: 1px solid var(--light-navy)
+  
 }
 
 .resume-link > a {
@@ -93,9 +99,9 @@ header {
 
 .resume-link {
   transition-property: transform box-shadow;
-  transition-duration: 1s;
+  transition-duration: .5s;
   transition-timing-function: ease-out;
-  transition-delay: .25s;
+  transition-delay: .125s;
   
 }
 
@@ -109,7 +115,7 @@ header {
 .resume-link:hover {
   position: sticky;
   background-color: var(--light-navy);
-  box-shadow: 3px 3px 0px 2px var(--green);
+  box-shadow: 4px 4px 0px 2px var(--green);
   transform: translateY(-3px) translateX(-3px);
 }
 
@@ -270,11 +276,10 @@ ul {
   width: auto;
   cursor: pointer;
   margin: 1em 0;
-  padding: .3em;
+  padding: .2em;
   transition-property: transform background-color;
-  transition-duration: 1s;
+  transition-duration: .25s;
   transition-timing-function: ease-out;
-  transition-delay: .25s;
 }
 
 .icons:hover {
@@ -284,9 +289,9 @@ ul {
 }
 
 #line-container {
-  border-right: 1px solid white;
+  border-right: 1px solid var(--slate);
   height: 15em;
-  margin-right: 1em;
+  margin-right: 1.3em;
 }
 
 .right-side-bar {
@@ -306,14 +311,13 @@ ul {
   text-decoration: none;
   color: var(--light-slate);
   transition-property: transform translateY();
-  transition-duration: 1s;
+  transition-duration: .5s;
   transition-timing-function: ease-out;
-  transition-delay: .25s;
 }
 
 .right-side-bar a:hover {
   color: var(--green);
-  padding-right: 5px;
+  padding-right: 8px;
 }
 
 @keyframes right-side-bar-load {
@@ -327,7 +331,7 @@ ul {
 
 #other-line {
   width: 12em;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--slate);
   margin-bottom: 1.2em;
 }
 
