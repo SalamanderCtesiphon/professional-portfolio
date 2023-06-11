@@ -2,10 +2,10 @@ import './App.css';
 import logo from './icons/icons8-merge-git-100.png'
 import resumeDownLoad from './assets/ShannonBrookshire.pdf'
 import { useState, useEffect } from 'react'
-import RingLoader from "react-spinners/ClipLoader";
 import WorkSection from './components/WorkSection';
 import Hero from './components/Hero';
 import LeftSideBar from './components/LeftSideBar';
+import LoadPage from './components/LoadPage';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -22,16 +22,10 @@ function App() {
     <div className="App">
       {
         loading ? 
-         <div className='load-page'>
-           <RingLoader
-            color={color}
-            loading={loading}
-            size={75}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-            speedMultiplier={.35}
-            />
-         </div>
+         <LoadPage 
+          color={color}
+          loading={loading}
+         />
         :
           <div>
             <LeftSideBar />
