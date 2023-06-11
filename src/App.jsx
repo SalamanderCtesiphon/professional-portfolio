@@ -57,7 +57,7 @@ function App() {
                   <div className="link">Work</div>
                   <div className="link">Contact</div>
                 </div>
-                <div className="resume-link"><a href={resumeDownLoad}>Resume</a></div>
+                <div className="resume-link"><a id="sticky" href={resumeDownLoad}>Resume</a></div>
               </div>
             </header>
             <div className="hero">
