@@ -66,8 +66,8 @@ function App() {
               <h1 className="title2">I am a front-end web developer.</h1>
               <p className="first-paragraph">I am an enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces.</p>
             </div>
+            <div className="spacer"></div>
             <div className="container">
-              <h1 className="title">Work Section </h1>
               <div className="work-card">
                 <img src={coffee} alt="my coffee site" />
                 <div className="card-info">
@@ -81,7 +81,6 @@ function App() {
                 </div>
               </div>
               <div className="work-card">
-                <img src={fashion} alt="my coffee site" />
                 <div className="card-info">
                   <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
                   <div className="badges">
@@ -90,6 +89,7 @@ function App() {
                     <div className="tech-stack">ContextAPI</div>
                   </div>
                 </div>
+                <img src={fashion} alt="my coffee site" />
               </div>
               <div className="work-card">
                 <img src={resturant} alt="my coffee site" />
