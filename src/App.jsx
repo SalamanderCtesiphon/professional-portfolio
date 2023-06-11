@@ -7,6 +7,7 @@ import LoadPage from './components/LoadPage';
 import RightSideBar from './components/RightSideBar';
 import Header from './components/Header';
 import AboutSection from './components/AboutSection';
+import Spacer from './components/Spacer';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -33,7 +34,7 @@ function App() {
             <RightSideBar />
             <Header />
             <Hero />
-            <div className="spacer"></div>
+            <Spacer />
             <WorkSection />           
             <AboutSection />
             <div className="container">
