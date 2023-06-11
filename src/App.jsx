@@ -11,6 +11,7 @@ import Spacer from './components/Spacer';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
 function App() {
   const [loading, setLoading] = useState(false)
   let color= useState("#ffffff");
