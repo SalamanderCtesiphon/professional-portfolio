@@ -6,6 +6,7 @@ import WorkSection from './components/WorkSection';
 import Hero from './components/Hero';
 import LeftSideBar from './components/LeftSideBar';
 import LoadPage from './components/LoadPage';
+import RightSideBar from './components/RightSideBar';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -29,10 +30,7 @@ function App() {
         :
           <div>
             <LeftSideBar />
-            <section className='right-side-bar'>
-              <p><a href="swbrookshire@gmail.com">swbrookshire@gmail.com</a></p>
-              <div id="other-line"></div>
-            </section>
+            <RightSideBar />
             <header>
               <img id='logo' src={logo} alt="my logo" />
               <div className="link-container">
