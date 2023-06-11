@@ -1,14 +1,13 @@
 import './App.css';
 import logo from './icons/icons8-merge-git-100.png'
-import coffee from './images/coffee-site.png'
-import fashion from './images/fashion-boutique.png'
-import resturant from './images/resturant-page.png'
 import resumeDownLoad from './assets/ShannonBrookshire.pdf'
 import gitHub from './icons/icons8-github-50.png'
 import twitter from './icons/icons8-twitter-50.png'
 import linkedIn from './icons/icons8-linkedin-50.png'
 import { useState, useEffect } from 'react'
 import RingLoader from "react-spinners/ClipLoader";
+import WorkSection from './components/WorkSection';
+import Hero from './components/Hero';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -60,44 +59,9 @@ function App() {
                 <div className="resume-link"><a id="sticky" href={resumeDownLoad}>Resume</a></div>
               </div>
             </header>
-            <div className="hero">
-              <p className="intro">Hi, my name is</p>
-              <h1 className="title">Shannon Brookshire.</h1>
-              <h1 className="title2">I am a front-end web developer.</h1>
-              <p className="first-paragraph">I am an enthusiastic software engineer specializing in front-end web development. I have a passion for creating beautiful functional user interfaces.</p>
-            </div>
+            <Hero />
             <div className="spacer"></div>
-            <div className="container">
-              <div className="work-card">
-                <img src={coffee} alt="my coffee site" />
-                <div className="card-info">
-                  <h4>Coffee Importers</h4>
-                  <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
-                  <div className="badges">
-                    <div className="tech-stack">React</div>
-                    <div className="tech-stack">Firebase</div>
-                    <div className="tech-stack">ContextAPI</div>
-                  </div>
-                </div>
-              </div>
-              <div className="work-card">
-                <div className="card-info">
-                  <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
-                  <div className="badges">
-                    <div className="tech-stack">React</div>
-                    <div className="tech-stack">Firebase</div>
-                    <div className="tech-stack">ContextAPI</div>
-                  </div>
-                </div>
-                <img src={fashion} alt="my coffee site" />
-              </div>
-              <div className="work-card">
-                <img src={resturant} alt="my coffee site" />
-                <div className="card-info">
-                  <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
-                </div>
-              </div>
-            </div>
+            <WorkSection />           
             <div className="container">
               <h1 className="title">About me</h1>
               <p className="about-paragraph">I am plagued by an insatiable curiosity, which has led me to my current path in life. When I was in high school I spent way too much time in the school library researching whatever topic had caught my attention. I remember one time during my junior year I was sitting at a table by myself in the library reading the spiritual classic the 'Bhagavad Gita' and I thought to myself, 'I can't even discuss what I am reading with my friends. They would have no idea what I would be talking about.' I felt so strange and out of place.</p>
