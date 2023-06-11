@@ -1,13 +1,11 @@
 import './App.css';
 import logo from './icons/icons8-merge-git-100.png'
 import resumeDownLoad from './assets/ShannonBrookshire.pdf'
-import gitHub from './icons/icons8-github-50.png'
-import twitter from './icons/icons8-twitter-50.png'
-import linkedIn from './icons/icons8-linkedin-50.png'
 import { useState, useEffect } from 'react'
 import RingLoader from "react-spinners/ClipLoader";
 import WorkSection from './components/WorkSection';
 import Hero from './components/Hero';
+import LeftSideBar from './components/LeftSideBar';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -36,14 +34,7 @@ function App() {
          </div>
         :
           <div>
-            <section className='side-bar'>
-              <ul className='side-links'>
-                <li><a href="https://github.com/SalamanderCtesiphon"><img src={gitHub} alt="git hub" className='icons'/></a></li>
-                <li><a href="https://twitter.com/Shannon99535365"><img src={twitter} alt="twitter" className='icons'/></a></li>
-                <li><a href="https://www.linkedin.com/in/shannon-brookshire-817577265/"><img src={linkedIn} alt="linked in" className='icons'/></a></li>
-                <li id="line-container"></li>
-              </ul>
-            </section>
+            <LeftSideBar />
             <section className='right-side-bar'>
               <p><a href="swbrookshire@gmail.com">swbrookshire@gmail.com</a></p>
               <div id="other-line"></div>
