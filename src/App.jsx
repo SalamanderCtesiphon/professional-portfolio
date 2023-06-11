@@ -8,6 +8,8 @@ import RightSideBar from './components/RightSideBar';
 import Header from './components/Header';
 import AboutSection from './components/AboutSection';
 import Spacer from './components/Spacer';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -37,13 +39,8 @@ function App() {
             <Spacer />
             <WorkSection />           
             <AboutSection />
-            <div className="container">
-              <h1 className="title">Contact</h1>
-              <p>contact info goes here</p>
-            </div>
-            <div className="footer">
-              <small>this web site is a poor clone of a much better website by a wonderful developer <a className='nav-link' href="https://v4.brittanychiang.com/">Brittany Chaing</a></small>
-            </div>
+            <Contact />
+            <Footer />
           </div>
       }
     </div>
