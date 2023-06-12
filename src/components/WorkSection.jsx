@@ -10,7 +10,9 @@ import { useInView } from "react-intersection-observer";
 function WorkSection() {
 
   const control = useAnimation()
-  const [ref, inView] = useInView()
+  const [ref, inView] = useInView({
+    threshold: 0,
+  })
 
   const boxVariant = {
     visible: { opacity: 1, scale: 1},
@@ -32,6 +34,7 @@ function WorkSection() {
       variants={boxVariant}
       initial="hidden"
       animate={control}
+      transition={{ ease: "easeOut", duration: 1 }}
       className="container"
     >
       <div className="work-card">
