@@ -384,6 +384,26 @@ work section------------------------------------------------------- */
   transition-timing-function: ease-in-out;
 }
 
+.web-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--green);
+  background-color: var(--light-navy);
+  padding: .25em .5em;
+  border-radius: 10px;
+
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+
+.web-links:hover {
+  background-color: var(--navy);
+  transform: scale(1.05);
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+
 img {
   height: 16em;
   width: auto;
