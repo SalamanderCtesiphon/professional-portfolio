@@ -38,9 +38,10 @@ function App() {
             <Header />
             <Hero />
             <Spacer />
-            <Spacer />
-            <WorkSection />           
+            <WorkSection />  
+            <Spacer />         
             <AboutSection />
+            <Spacer />
             <Contact />
             <Footer />
           </div>
