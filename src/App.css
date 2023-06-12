@@ -368,10 +368,9 @@ work section------------------------------------------------------- */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 70vw;
-  margin: 5em 0;
+  min-width: 70vw;
+  margin: 8em 0;
   padding: 1em 3em;
-  background-color: rgba(0, 0, 0, 0.119);
 }
 
 img {
@@ -380,7 +379,6 @@ img {
 }
 
 .card-info {
-  background-color: rgba(0, 0, 0, 0.098);
   padding: 1em;
   width: 30vw;
 }
