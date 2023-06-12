@@ -37,6 +37,7 @@ function WorkSection() {
       transition={{ ease: "easeOut", duration: 1 }}
       className="container"
     >
+      <h1 className='title'>My Projects:</h1>
       <div className="work-card">
         <img src={coffee} alt="my coffee site" />
         <div className="card-info">
