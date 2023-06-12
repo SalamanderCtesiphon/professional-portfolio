@@ -3,6 +3,7 @@ import React, {useEffect} from 'react'
 import coffee from '../images/coffee-site.png'
 import fashion from '../images/fashion-boutique.png'
 import resturant from '../images/resturant-page.png'
+import memory from '../images/memory-game.png'
 import { motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
@@ -59,7 +60,7 @@ function WorkSection() {
             <div className="tech-stack">ContextAPI</div>
           </div>
         </div>
-        <img src={fashion} alt="my coffee site" />
+        <img src={memory} alt="my coffee site" />
       </div>
       <div className="work-card">
         <img src={resturant} alt="my coffee site" />
