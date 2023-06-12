@@ -476,6 +476,7 @@ p.intro-paragraph {
   background-color: var(--navy);
   color: var(--white);
   margin: 1em;
+  padding: 1em;
 }
 
 #submit-btn {
