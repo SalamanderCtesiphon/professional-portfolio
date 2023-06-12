@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react'
 
 import coffee from '../images/coffee-site.png'
-import fashion from '../images/fashion-boutique.png'
 import resturant from '../images/resturant-page.png'
 import memory from '../images/memory-game.png'
 import { motion, useAnimation } from "framer-motion";
+import next from '../icons/arrow_outward_FILL0_wght400_GRAD0_opsz48.svg'
 
 import { useInView } from "react-intersection-observer";
 
@@ -42,7 +42,11 @@ function WorkSection() {
       <div className="work-card">
         <img src={coffee} alt="my coffee site" />
         <div className="card-info">
-          <h4>Coffee Importers</h4>
+          <div className="title-holder">
+            <h4>Coffee Importers</h4>
+            <a href="#"><img src={next} alt="nav link" className='link-icon'/>live site</a>
+            <a href="#"><img src={next} alt="nav link" className='link-icon'/>github repo</a>
+          </div>
           <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
           <div className="badges">
             <div className="tech-stack">React</div>
