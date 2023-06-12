@@ -44,8 +44,8 @@ function WorkSection() {
         <div className="card-info">
           <div className="title-holder">
             <h4>Coffee Importers</h4>
-            <a href="/"><img src={next} alt="nav link" className='link-icon'/>live site</a>
-            <a href="/"><img src={next} alt="nav link" className='link-icon'/>github repo</a>
+            <a className='web-links' href="/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+            <a className='web-links' href="/">github repo <img src={next} alt="nav link" className='link-icon'/></a>
           </div>
           <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
           <div className="badges">
@@ -57,7 +57,13 @@ function WorkSection() {
       </div>
       <div className="work-card">
         <div className="card-info">
+          <div className="title-holder">
+            <h4>Coffee Importers</h4>
+            <a className='web-links' href="/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+            <a className='web-links' href="/">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+          </div>
           <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
+          
           <div className="badges">
             <div className="tech-stack">React</div>
             <div className="tech-stack">Firebase</div>
@@ -69,7 +75,17 @@ function WorkSection() {
       <div className="work-card">
         <img src={resturant} alt="my coffee site" />
         <div className="card-info">
+          <div className="title-holder">
+            <h4>Coffee Importers</h4>
+            <a className='web-links' href="/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+            <a className='web-links' href="/">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+          </div>
           <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
+          <div className="badges">
+            <div className="tech-stack">React</div>
+            <div className="tech-stack">Firebase</div>
+            <div className="tech-stack">ContextAPI</div>
+          </div>
         </div>
       </div>
     </motion.div>
