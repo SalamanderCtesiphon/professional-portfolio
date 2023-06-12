@@ -23,9 +23,9 @@ function WorkSection() {
   useEffect(() => {
       if (inView) {
         control.start("visible");
-      } else {
+      } /* else {
         control.start("hidden")
-      }
+      } */
     }, [control, inView]);
 
     
