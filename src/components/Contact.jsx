@@ -12,9 +12,7 @@ function Contact() {
         <div className="link-icon-holder">
           <li><a href="https://www.linkedin.com/in/shannon-brookshire-817577265/"><img src={linkedIn} alt="linked in" className='icons'/></a></li>
           <li><a href="https://twitter.com/Shannon99535365"><img src={twitter} alt="twitter" className='icons'/></a></li>
-        
         </div>
-        <div className="line-box"></div>
         <Email />
       </div>
     </div>
