@@ -16,7 +16,7 @@ export const Email = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} id='email-anchor'>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
