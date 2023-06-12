@@ -296,7 +296,7 @@ ul {
 
 #line-container {
   border-right: 1px solid var(--slate);
-  height: 15em;
+  height: 13.5em;
   margin-right: 1em;
 }
 
@@ -350,7 +350,7 @@ ul {
 }
 
 .spacer {
-  height: 40vh;
+  height: 20vh;
 }
 
 .container {
