@@ -10,7 +10,6 @@ import AboutSection from './components/AboutSection';
 import Spacer from './components/Spacer';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import banner from './images/brecht-corbeel-UGVKz9jSfgQ-unsplash.jpg'
 
 
 function App() {
