@@ -343,6 +343,12 @@ ul {
 
 /* spacer---------------------------- */
 
+#banner {
+  height: 16em;
+  width: 100vw;
+  object-fit: fill;
+}
+
 .spacer {
   height: 40vh;
 }
