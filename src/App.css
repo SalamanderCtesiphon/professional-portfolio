@@ -446,3 +446,37 @@ p.intro-paragraph {
 .nav-link:hover {
   color: var(--white);
 }
+
+/* email form-------------------------------- */
+
+#email-anchor {
+  display: flex;
+  flex-direction: column;
+}
+
+#email-anchor input {
+  background-color: var(--navy);
+  color: var(--white);
+  padding: 1em;
+  margin: 1em;
+}
+
+#email-anchor textarea {
+  background-color: var(--navy);
+  color: var(--white);
+  margin: 1em;
+}
+
+#submit-btn {
+  color: var(--green);
+  border: 1px solid var(--green);
+  padding: 1em 1.5em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit-btn:hover {
+  background-color: var(--dark-gray);
+}
