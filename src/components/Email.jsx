@@ -10,6 +10,7 @@ export const Email = () => {
     emailjs.sendForm('contact_service', 'template_dn0u78g', form.current, 'Kkm6T_8YFYihn0Atv')
       .then((result) => {
           console.log(result.text);
+
       }, (error) => {
           console.log(error.text);
       });
