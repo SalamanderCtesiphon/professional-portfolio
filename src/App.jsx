@@ -39,7 +39,6 @@ function App() {
             <Header />
             <Hero />
             <Spacer />
-            <img src={banner} alt="banner" id='banner'/>
             <Spacer />
             <WorkSection />           
             <AboutSection />
