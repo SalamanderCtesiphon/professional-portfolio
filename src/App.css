@@ -463,6 +463,7 @@ p.intro-paragraph {
 #email-anchor {
   display: flex;
   flex-direction: column;
+  height: 40vh;
 }
 
 #email-anchor input {
@@ -470,6 +471,10 @@ p.intro-paragraph {
   color: var(--white);
   padding: 1em;
   margin: 1em;
+}
+
+form {
+  margin: 0 2em;
 }
 
 #email-anchor textarea {
@@ -491,4 +496,23 @@ p.intro-paragraph {
 
 #submit-btn:hover {
   background-color: var(--dark-gray);
+}
+
+.contact-container {
+  padding: 2em;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-box {
+  height: 20em;
+  width: 0;
+  border-right: 1px solid var(--lightest-slate);
+  padding-right: 15em;
+}
+
+.contact-container li {
+  list-style: none;
 }
