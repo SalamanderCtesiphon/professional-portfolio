@@ -378,6 +378,24 @@ img {
   width: auto;
 }
 
+.title-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-holder a {
+  text-decoration: none;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+}
+
+.link-icon {
+  height: 1em;
+  width: auto;
+}
+
 .card-info {
   padding: 1em;
   width: 30vw;
