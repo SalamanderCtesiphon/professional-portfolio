@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 
 import coffee from '../images/coffee-site.png'
-import resturant from '../images/resturant-page.png'
+import resumeEditor from '../images/resume-editor.png'
 import memory from '../images/memory-game.png'
 import { motion, useAnimation } from "framer-motion";
 import next from '../icons/arrow_outward_FILL0_wght400_GRAD0_opsz48.svg'
@@ -73,18 +73,17 @@ function WorkSection() {
         <img src={memory} alt="my coffee site" />
       </div>
       <div className="work-card">
-        <img src={resturant} alt="my coffee site" />
+        <img src={resumeEditor} alt="my coffee site" />
         <div className="card-info">
           <div className="title-holder">
-            <h4>Coffee Importers</h4>
-            <a className='web-links' href="/">live site <img src={next} alt="nav link" className='link-icon'/></a>
-            <a className='web-links' href="/">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+            <h4>Resume Editor</h4>
+            <a className='web-links' href="https://resume-editor-cfc94.web.app/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+            <a className='web-links' href="https://github.com/SalamanderCtesiphon/resume-editor">github repo <img src={next} alt="nav link" className='link-icon'/></a>
           </div>
-          <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
+          <p className='intro-paragraph'>This is a live resume editor. It demonstrates conditonal rendering and live updates from user inputs.</p>
           <div className="badges">
             <div className="tech-stack">React</div>
             <div className="tech-stack">Firebase</div>
-            <div className="tech-stack">ContextAPI</div>
           </div>
         </div>
       </div>
