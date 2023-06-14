@@ -57,8 +57,8 @@ header {
 
 .link-container {
   position: relative;
-  font-size: .75em;
-  width: 35vw;
+  font-size: 1em;
+  width: 25vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -374,9 +374,10 @@ ul {
 }
 
 #other-line {
-  width: 12em;
+  width: 21.5em;
   border-bottom: 1px solid var(--slate);
-  margin-bottom: 1.2em;
+  margin-bottom: 1.45em;
+  margin-left: .5em;
 }
 
 /* spacer---------------------------- */
