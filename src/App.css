@@ -52,6 +52,7 @@ header {
 
 #logo {
   height: 2.5em;
+  width: auto;
 }
 
 .link-container {
@@ -65,8 +66,8 @@ header {
 }
 
 @media (max-width: 500px) {
-  .link-container-child-one {
-    display: none;
+  .link-container {
+    justify-content: flex-end;
   }  
 }
 
@@ -122,6 +123,12 @@ header {
   width: 100%;
 }
 
+@media (max-width: 500px) {
+  .link-container-child-one {
+    display: none;
+  }  
+}
+
 .resume-link:hover {
   position: sticky;
   background-color: var(--light-navy);
@@ -175,6 +182,15 @@ header {
   animation-fill-mode: forwards;
 }
 
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 4em;
+    line-height: 1em;
+    text-align: left;
+  }
+}
+
 @keyframes title-animation {
   0% {
     transform: translateY(100%);
@@ -200,6 +216,12 @@ header {
   transform: translateY(100%);
   opacity: 0;
   animation-fill-mode: forwards;
+}
+
+@media (max-width: 500px) {
+  .title2 {
+    font-size: 1.1em;
+  }
 }
 
 @keyframes title2-animation {
@@ -267,6 +289,12 @@ header {
   transform: translateY(100%);
 }
 
+@media (max-width: 500px) {
+  .side-bar {
+    display: none;
+  }  
+}
+
 @keyframes side-bar-load {
   0% {
     transform: translateY(100%);
@@ -315,6 +343,12 @@ ul {
   animation: right-side-bar-load 2000ms ease-in 2000ms;
   animation-fill-mode: forwards;
   
+}
+
+@media (max-width: 500px) {
+  .right-side-bar {
+    display: none;
+  }  
 }
 
 .right-side-bar a {
@@ -373,8 +407,8 @@ work section------------------------------------------------------- */
   justify-content: space-between;
   align-items: center;
   min-width: 70vw;
-  margin: 2em 0;
-  padding: 1em 3em;
+  margin: 1.75em;
+  padding: 1em;
 
   transition-duration: 1000ms;
   transition-timing-function: ease-in-out;
@@ -386,6 +420,12 @@ work section------------------------------------------------------- */
   transform: scale(1.05);
   transition-duration: 1000ms;
   transition-timing-function: ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .work-card {
+    flex-direction: column;
+  }  
 }
 
 .web-links {
@@ -413,6 +453,18 @@ img {
   width: auto;
 }
 
+@media (max-width: 500px) {
+  img {
+    width: 80%;
+    height: auto;
+    object-fit: fill;
+  } 
+  
+  .card-info {
+    width: 400px;
+  }
+}
+
 .title-holder {
   display: flex;
   align-items: center;
@@ -434,6 +486,13 @@ img {
 .card-info {
   padding: 1em;
   width: 30vw;
+}
+
+
+@media (max-width: 500px) {  
+  .card-info {
+    width: 400px;
+  }
 }
 
 p.intro-paragraph {
@@ -503,6 +562,12 @@ p.intro-paragraph {
   align-items: center;
   justify-content: space-around;
   width: 25%;
+}
+
+@media (max-width: 500px) {
+  .link-icon-holder {
+    width: 90vw;
+  }
 }
 
 .link-icon-holder .icons {
