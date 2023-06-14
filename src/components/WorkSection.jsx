@@ -44,8 +44,11 @@ function WorkSection() {
         <div className="card-info">
           <div className="title-holder">
             <h4>Coffee Importers</h4>
-            <a className='web-links' href="https://coffee-importers-bb881.web.app/">live site <img src={next} alt="nav link" className='link-icon'/></a>
-            <a className='web-links' href="https://github.com/SalamanderCtesiphon/coffee-importers">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+            <div className="links-container">
+              <a className='web-links' href="https://coffee-importers-bb881.web.app/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+              <a className='web-links' href="https://github.com/SalamanderCtesiphon/coffee-importers">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+          
+            </div>
           </div>
           <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
           <div className="badges">
@@ -58,9 +61,11 @@ function WorkSection() {
       <div className="work-card">
         <div className="card-info">
           <div className="title-holder">
-            <h4>The Memory Game</h4>
-            <a className='web-links' href="https://memory-game-1f43b.web.app/">live site <img src={next} alt="nav link" className='link-icon'/></a>
-            <a className='web-links' href="https://github.com/SalamanderCtesiphon/memory-card-react-app">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+            <h4>Memory Game</h4>
+            <div className="links-container">
+              <a className='web-links' href="https://memory-game-1f43b.web.app/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+             <a className='web-links' href="https://github.com/SalamanderCtesiphon/memory-card-react-app">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+            </div>
           </div>
           <p className='intro-paragraph'>This is a memory game, where the player clicks a card and the display is then shuffled. The player continues selecting cards until they choose the same card twice. The players score and the all-time high score is displayed in the nav-bar.</p>
           
@@ -77,8 +82,10 @@ function WorkSection() {
         <div className="card-info">
           <div className="title-holder">
             <h4>Resume Editor</h4>
-            <a className='web-links' href="https://resume-editor-cfc94.web.app/">live site <img src={next} alt="nav link" className='link-icon'/></a>
-            <a className='web-links' href="https://github.com/SalamanderCtesiphon/resume-editor">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+            <div className="links-container">
+              <a className='web-links' href="https://resume-editor-cfc94.web.app/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+              <a className='web-links' href="https://github.com/SalamanderCtesiphon/resume-editor">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+            </div>
           </div>
           <p className='intro-paragraph'>This is a live resume editor. It demonstrates conditonal rendering and live updates from user inputs.</p>
           <div className="badges">
