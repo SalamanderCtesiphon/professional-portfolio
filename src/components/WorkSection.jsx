@@ -51,7 +51,7 @@ function WorkSection() {
           
             </div>
           </div>
-          <p className='intro-paragraph'>This is a full stack fully functional e-commerce site. This is a bunch of other useless infor mation that i am using to style this element.</p>
+          <p className='intro-paragraph'>This is a full-stack fully functional e-commerce site. It uses firebase hosting for web hosting. Firebase authentication is implemented and is used to conditionally render a log out button that lets the user use the site as either a member or guest.</p>
           <div className="badges">
             <div className="tech-stack">React</div>
             <div className="tech-stack">Firebase</div>
