@@ -14,8 +14,6 @@
   background-color: var(--navy);
   color: var(--white);
   padding: 0.5em 1em;
-  line-height: .5em;
-  letter-spacing: .4em;
 }
 
 .load-page {
@@ -162,7 +160,8 @@ header {
 }
 
 .title {
-  font-size: 4em;
+  font-size: 5em;
+  line-height: .5em;
   font-weight: 900;
   animation: title-animation 500ms ease-in 5500ms;
   transform: translateY(100%);
@@ -186,7 +185,8 @@ header {
 
 .title2 {
   color: var(--slate);
-  font-size: 3em;
+  line-height: .5em;
+  font-size: 3.5em;
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: .01em;
   word-spacing: .0001em;
@@ -208,7 +208,6 @@ header {
 }
 
 .first-paragraph {
-  line-height: 2em;
   width: 38vw;
   height: auto;
   text-align: left;
@@ -239,7 +238,6 @@ header {
 
 
 .intro-paragraph {
-  line-height: 2em;
   width: 40vw;
   height: auto;
   text-align: left;
