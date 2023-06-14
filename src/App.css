@@ -437,6 +437,7 @@ work section------------------------------------------------------- */
   background-color: var(--light-navy);
   padding: .25em .5em;
   border-radius: 10px;
+  margin: 0 1em;
 
   transition-duration: 1000ms;
   transition-timing-function: ease-in-out;
@@ -447,6 +448,10 @@ work section------------------------------------------------------- */
   transform: scale(1.05);
   transition-duration: 1000ms;
   transition-timing-function: ease-in-out;
+}
+
+.links-container {
+  display: flex;
 }
 
 img {
