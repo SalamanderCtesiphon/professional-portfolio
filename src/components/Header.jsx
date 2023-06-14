@@ -1,7 +1,7 @@
 import React from 'react'
 
 import logo from '../icons/icons8-merge-git-100.png'
-import resumeDownLoad from '../assets/ShannonBrookshire.pdf'
+import resumeDownLoad from '../assets/shannonresume.pdf'
 
 function Header() {
   return (
