@@ -37,6 +37,7 @@ function WorkSection() {
       animate={control}
       transition={{ ease: "easeOut", duration: 1 }}
       className="container"
+      id='work-anchor'
     >
       <h1 className='title'>My Projects:</h1>
       <div className="work-card">
