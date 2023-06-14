@@ -71,7 +71,8 @@ header {
   }  
 }
 
-.link {
+.link a{
+  text-decoration: none;
   position: sticky;
   cursor: pointer;
   color: var(--slate);
@@ -90,7 +91,7 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
-.link:hover {
+.link a:hover {
   color: var(--green);
   border-bottom: 1px solid var(--white);
   width: 3em;
