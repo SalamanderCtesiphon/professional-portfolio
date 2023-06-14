@@ -9,9 +9,9 @@ function Header() {
       <img id='logo' src={logo} alt="my logo" />
       <div className="link-container">
         <div className="link-container-child-one">
-          <div className="link">About</div>
-          <div className="link">Work</div>
-          <div className="link">Contact</div>
+          <div className="link"><a href="#about-anchor">About</a></div>
+          <div className="link"><a href="#work-anchor">Work</a></div>
+          <div className="link"><a href="#contact-anchor">Contact</a></div>
         </div>
         <div className="resume-link"><a id="sticky" href={resumeDownLoad}>Resume</a></div>
       </div>
