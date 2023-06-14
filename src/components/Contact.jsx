@@ -5,7 +5,7 @@ import linkedIn from '../icons/icons8-linkedin-50.png'
 
 function Contact() {
   return (
-    <div className="container">
+    <div className="container" id='contact-anchor'>
       <h1 className="title">Contact</h1>
       <p>Feel free to contact me either by messaging me on LinkedIn or Twitter... </p>
       <div className="link-icon-holder">
