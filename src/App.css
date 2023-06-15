@@ -65,7 +65,7 @@ header {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 730px) {
   .link-container {
     justify-content: flex-end;
   }  
@@ -124,7 +124,7 @@ header {
   width: 100%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .link-container-child-one {
     display: none;
   }  
@@ -184,9 +184,9 @@ header {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .title {
-    font-size: 4em;
+    font-size: 3em;
     line-height: 1em;
     text-align: left;
   }
@@ -219,9 +219,9 @@ header {
   animation-fill-mode: forwards;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .title2 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 
@@ -290,7 +290,7 @@ header {
   transform: translateY(100%);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .side-bar {
     display: none;
   }  
@@ -346,7 +346,7 @@ ul {
   
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .right-side-bar {
     display: none;
   }  
@@ -425,7 +425,7 @@ work section------------------------------------------------------- */
   transition-timing-function: ease-in-out;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .work-card {
     flex-direction: column;
   }  
@@ -461,7 +461,7 @@ img {
   width: auto;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   img {
     width: 80%;
     height: auto;
@@ -497,7 +497,7 @@ img {
 }
 
 
-@media (max-width: 700px) {  
+@media (max-width: 730px) {  
   .card-info {
     width: 400px;
   }
@@ -573,7 +573,7 @@ p.intro-paragraph {
   width: 25%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .link-icon-holder {
     width: 90vw;
   }
