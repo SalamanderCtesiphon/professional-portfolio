@@ -124,7 +124,7 @@ header {
   width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .link-container-child-one {
     display: none;
   }  
@@ -184,7 +184,7 @@ header {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .title {
     font-size: 4em;
     line-height: 1em;
@@ -219,7 +219,7 @@ header {
   animation-fill-mode: forwards;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .title2 {
     font-size: 1.1em;
   }
@@ -290,7 +290,7 @@ header {
   transform: translateY(100%);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .side-bar {
     display: none;
   }  
@@ -346,7 +346,7 @@ ul {
   
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .right-side-bar {
     display: none;
   }  
@@ -398,6 +398,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1em;
 }
 
 
@@ -424,7 +425,7 @@ work section------------------------------------------------------- */
   transition-timing-function: ease-in-out;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .work-card {
     flex-direction: column;
   }  
@@ -460,7 +461,7 @@ img {
   width: auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   img {
     width: 80%;
     height: auto;
@@ -496,7 +497,7 @@ img {
 }
 
 
-@media (max-width: 500px) {  
+@media (max-width: 700px) {  
   .card-info {
     width: 400px;
   }
@@ -530,6 +531,7 @@ p.intro-paragraph {
   align-items: center;
   line-height: 2em;
   color: var(--slate);
+  padding: 0 2em;
 }
 
 /* footer style -------------------------- */
@@ -571,7 +573,7 @@ p.intro-paragraph {
   width: 25%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .link-icon-holder {
     width: 90vw;
   }
@@ -579,9 +581,6 @@ p.intro-paragraph {
 
 .link-icon-holder .icons {
   height: 4em;
-}
-
-form {
 }
 
 #email-anchor textarea {
