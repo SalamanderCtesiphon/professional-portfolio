@@ -1,10 +1,11 @@
-import React, {useEffect} from 'react'
+import React, {useEffect} from 'react';
 
-import coffee from '../images/coffee-site.png'
-import resumeEditor from '../images/resume-editor.png'
-import memory from '../images/memory-game.png'
+import coffee from '../images/coffee-site.png';
+import resumeEditor from '../images/resume-editor.png';
+import memory from '../images/memory-game.png';
+import rockGame from '../images/rps-game.png';
 import { motion, useAnimation } from "framer-motion";
-import next from '../icons/arrow_outward_FILL0_wght400_GRAD0_opsz48.svg'
+import next from '../icons/arrow_outward_FILL0_wght400_GRAD0_opsz48.svg';
 
 import { useInView } from "react-intersection-observer";
 
@@ -94,6 +95,25 @@ function WorkSection() {
             <div className="tech-stack">Firebase</div>
           </div>
         </div>
+      </div>
+      <div className="work-card">
+        <div className="card-info">
+          <div className="title-holder">
+            <h4>Rock Paper Scissors</h4>
+            <div className="links-container">
+              <a className='web-links' href="https://salamanderctesiphon.github.io/rock-paper-scissors.v2/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+             <a className='web-links' href="https://github.com/SalamanderCtesiphon/rock-paper-scissors.v2">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+            </div>
+          </div>
+          <p className='intro-paragraph'>This is rock, paper, scissors. The classic school yard game. The user clicks a button to select their item, then clicks the play button to simulate five rounds of rock paper scissors. The results are conditionally displayed on the screen.</p>
+          
+          <div className="badges">
+            <div className="tech-stack">JavaScript</div>
+            <div className="tech-stack">HTML</div>
+            <div className="tech-stack">CSS</div>
+          </div>
+        </div>
+        <img src={rockGame} alt="my coffee site" />
       </div>
     </motion.div>
   )
