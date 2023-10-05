@@ -6,6 +6,7 @@ import memory from '../images/memory-game.png';
 import rockGame from '../images/rps-game.png';
 import { motion, useAnimation } from "framer-motion";
 import next from '../icons/arrow_outward_FILL0_wght400_GRAD0_opsz48.svg';
+import portfolio from '../images/portfolio1.png'
 
 import { useInView } from "react-intersection-observer";
 
@@ -120,11 +121,11 @@ function WorkSection() {
           <div className="title-holder">
             <h4>Previous Portfolio</h4>
             <div className="links-container">
-              <a className='web-links' href="https://salamanderctesiphon.github.io/rock-paper-scissors.v2/">live site <img src={next} alt="nav link" className='link-icon'/></a>
-             <a className='web-links' href="https://github.com/SalamanderCtesiphon/rock-paper-scissors.v2">github repo <img src={next} alt="nav link" className='link-icon'/></a>
+              <a className='web-links' href="https://portfolio-77529.web.app/">live site <img src={next} alt="nav link" className='link-icon'/></a>
+             <a className='web-links' href="https://github.com/SalamanderCtesiphon/personal-portfolio">github repo <img src={next} alt="nav link" className='link-icon'/></a>
             </div>
           </div>
-          <p className='intro-paragraph'>This is rock, paper, scissors. The classic school yard game. The user clicks a button to select their item, then clicks the play button to simulate five rounds of rock paper scissors. The results are conditionally displayed on the screen.</p>
+          <p className='intro-paragraph'>This is my first portfolio. Try not to laugh.</p>
           
           <div className="badges">
             <div className="tech-stack">JavaScript</div>
@@ -132,7 +133,7 @@ function WorkSection() {
             <div className="tech-stack">CSS</div>
           </div>
         </div>
-        <img src={rockGame} alt="my coffee site" />
+        <img src={portfolio} alt="my coffee site" />
       </div>
     </motion.div>
   )
